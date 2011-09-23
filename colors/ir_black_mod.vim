@@ -199,7 +199,6 @@ hi link htmlEndTag      Identifier
 " Special for Javascript
 hi link javaScriptNumber      Number 
 
-
 " == CSS ==
 hi cssIdentifier	guifg=#b4b8e0 gui=none
 hi cssClassName		guifg=#f6d584 gui=none
@@ -208,10 +207,6 @@ hi cssPseudoClass	guifg=#dea39e gui=none
 " == NERDtree ==
 hi NerdTreeDir   guifg=#feee00    guibg=NONE    gui=none
 hi NerdTreeUp 	 guifg=#ffff00    guibg=NONE    gui=none
-
-" == Indent Guides ==
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#020202   ctermbg=3
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#090909   ctermbg=4
 
 " == Taskpaper ==
 hi TaskPaperProject  guifg=#96CBFE     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
