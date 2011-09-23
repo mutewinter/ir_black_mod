@@ -215,6 +215,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#090909   ctermbg=4
 
 " == Taskpaper ==
 hi TaskPaperProject  guifg=#96CBFE     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi taskpaperCancelled  guifg=#ffaf71     guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
 " == BufStat ==
 hi BufStatActive          guifg=#f6d584     guibg=NONE        gui=NONE      ctermfg=NONE       ctermbg=NONE        cterm=NONE
